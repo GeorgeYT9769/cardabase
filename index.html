@@ -444,6 +444,13 @@
                 >
                   Features
                 </button>
+                  <button
+                  type="button"
+                  class="home-button1 button buttonFlat buttonFilled"
+                  onClick="document.getElementById('photos').scrollIntoView();"
+                >
+                  Photos
+                </button>
                 <button
                   type="button"
                   class="home-button3 button buttonFlat buttonFilled"
@@ -492,6 +499,21 @@
                     Features
                   </span>
                   <span
+<<<<<<< HEAD
+                    class="home-nav3 button buttonFlat buttonFilled bodySmall"
+                    onClick="document.getElementById('photos').scrollIntoView();"
+                  >
+                    Photos
+                  </span>
+                  <span
+                    class="home-nav3 button buttonFlat buttonFilled bodySmall"
+                    onClick="document.getElementById('pricing').scrollIntoView();"
+                  >
+                    Pricing
+                  </span>
+                  <span
+=======
+>>>>>>> 143227d20bae30c9681c75d25d29e6bb97f0307a
                     class="home-nav4 button buttonFlat buttonFilled bodySmall"
                     onClick="document.getElementById('questions').scrollIntoView();"
                   >
@@ -673,6 +695,42 @@
             </div>
           </div>
         </div>
+
+
+
+        <div class="bannerContainer home-banner" id="photos">
+
+            <span class="overline">
+              <span>photos</span>
+              <br />
+            </span>
+            <h2 class="home-features-heading heading2">
+              Cardabase photos
+            </h2>
+
+
+
+            <div id="main">
+              <button
+                type="button"
+                class="home-button button buttonFlat buttonFilled"
+                id="prev-button">
+                <
+              </button>
+              <img src="https://github.com/GeorgeYT9769/cardabase-app/raw/main/mockups/app-mockup-ios-screenshot-5-cardabase-5.5-inch-1%20(Small).png?raw=true" class="current-image">
+              <button
+                type="button"
+                class="home-button button buttonFlat buttonFilled"
+                id="next-button">
+                >
+              </button>
+            </div>
+
+        </div>
+
+        
+
+
         <div class="bannerContainer home-banner">
           <span class="overline">
             <span>DEV</span>
@@ -800,9 +858,6 @@
         </div>
       </div>
     </div>
-    <script
-      data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
