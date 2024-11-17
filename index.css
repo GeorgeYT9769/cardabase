@@ -198,6 +198,7 @@
 }
 .home-features-heading {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
 }
 .home-container03 {
   width: 100%;
@@ -218,6 +219,7 @@
 .home-text17 {
   font-weight: 600;
   line-height: 28px;
+  text-align: left;
 }
 .home-feature-card1 {
   background-color: transparent;
@@ -701,6 +703,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .home-faq1 {
   gap: var(--dl-space-space-twounits);
@@ -713,19 +716,22 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fourunits);
+  text-align: center;
 }
 .home-container43 {
   display: flex;
   max-width: 35%;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  text-align: center;
 }
 .home-text72 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
 }
 .home-text73 {
-  text-align: left;
+  text-align: center;
 }
 .home-container44 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -1012,12 +1018,14 @@
   }
   .home-faq1 {
     flex-direction: column;
+    text-align: center;
   }
   .home-container43 {
     max-width: 100%;
     align-self: center;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   .home-text73 {
     padding-left: var(--dl-space-space-unit);
@@ -1133,7 +1141,7 @@
 /*img*/
 .current-image {
   margin: 20px;
-  max-width: 80%;
+  max-width: 500px;
   width: 50%;
   border: 5px solid;
 }

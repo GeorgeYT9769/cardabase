@@ -212,6 +212,7 @@
   flex-direction: row;
   justify-content: center;
   background-color: var(--dl-color-custom-accent1);
+  text-align: center;
 }
 .navbarContainer {
   color: var(--dl-color-custom-neutral-light);
@@ -342,6 +343,7 @@
   font-weight: 700;
   line-height: 150%;
   text-transform: uppercase;
+  text-align: center;
 }
 .heading2 {
   font-size: 35px;
