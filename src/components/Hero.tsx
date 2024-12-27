@@ -22,30 +22,22 @@ export function Hero({ onDownloadClick }: HeroProps) {
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
               Cardabase is your digital wallet for loyalty cards. Save all your shop cards in one secure place and access them instantly.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 flex flex-col items-center gap-4">
               <button
                 onClick={onDownloadClick}
-                className="rounded-lg bg-primary-600 dark:bg-primary-500 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-700 dark:hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600 flex items-center gap-2"
+                className="w-64 rounded-lg bg-primary-600 dark:bg-primary-500 px-8 py-4 text-lg font-semibold text-white shadow-sm hover:bg-primary-700 dark:hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600 flex items-center justify-center gap-2"
               >
-                <Download className="h-5 w-5" />
+                <Download className="h-6 w-6" />
                 Download App
               </button>
-              <button
-                onClick={() => window.open('https://georgeyt9769.github.io/cardabase/webapp/index.html/', '_blank')}
-                className="rounded-lg bg-secondary-700 dark:bg-secondary-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-secondary-800 dark:hover:bg-secondary-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-600 flex items-center gap-2"
+              <a
+                href="https://github.com/GeorgeYT9769/cardabase-app"
+                className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 flex items-center gap-2"
+                target='_blank'
               >
-                <Play className="h-5 w-5" />
-                LIVE DEMO
-              </button>
-            </div>
-            <div className='mt-10 flex items-center justify-center gap-x-6'>
-            <button
-                onClick={() => window.open('https://github.com/GeorgeYT9769/cardabase-app/', '_blank')}
-                className="rounded-lg bg-gray-800 dark:bg-gray-700 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 dark:hover:bg-gray-600 flex items-center gap-2"
-              >
-                <Github className="h-5 w-5" />
-                Source Code
-              </button>
+                <Github className="h-4 w-4" />
+                View on GitHub
+              </a>
             </div>
           </div>
         </div>
