@@ -14,7 +14,7 @@ const features = [
   },
   {
     name: 'Password-protected cards',
-    description: 'Soon you will be able to secure your cards and the app with a password.',
+    description: 'Set up a password to protect your cards.',
     icon: Lock,
   },
   {
@@ -29,7 +29,7 @@ const features = [
   },
   {
     name: 'High card compatibility',
-    description: 'Right now only EAN-13 cards are supported, other types are on the way!',
+    description: 'There are exactly 13 types of barcode types supported.',
     icon: QrCode,
   },
   {
@@ -39,7 +39,7 @@ const features = [
   },
   {
     name: 'Storage efficient',
-    description: 'The whole app takes less than 30MB of internal storage*.',
+    description: 'The whole app uses tiny amount of internal storage*.',
     icon: HardDrive,
   },
 ];
