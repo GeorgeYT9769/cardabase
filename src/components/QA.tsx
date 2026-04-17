@@ -7,7 +7,7 @@ const faqs = [
   },
   {
     question: "Is Cardabase free?",
-    answer: "Yes, Cardabase is completely free to use! You can download Cardabase from the GitHub or F-Droid and start using it right away without any hidden costs."
+    answer: "Yes, Cardabase is completely free to use! You can download Cardabase from the GitHub or F-Droid and start using it right away without any hidden costs. FREE FOREVER."
   },
   {
     question: "How does Cardabase work?",
@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     question: "Can I import my existing cards into Cardabase?",
-    answer: "Yes, Cardabase provides an option to import cards by using your phone's camera or manually entering EAN-13 numbers. Soon you will be able to export all the cards in one file and import it to a new device."
+    answer: "Yes, Cardabase provides an option to import cards by using your phone's camera to scan the barcode or by manually entering the card details. Import or export your cards from already backed up Cardabase files."
   },
   {
     question: "Is Cardabase available for both iOS and Android?",
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: "Is my data safe and secure with Cardabase?",
-    answer: "Absolutely! Cardabase takes data security seriously. All your cards are encrypted and stored securely on your device (offline using AES-256 encryption)."
+    answer: "Absolutely! Cardabase takes data security seriously. All your cards are encrypted and stored securely on your device (offline using AES-256 encryption). You can also add local password to protect your cards even more."
   }
 ];
 

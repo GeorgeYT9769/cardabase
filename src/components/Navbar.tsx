@@ -1,5 +1,4 @@
 import React from 'react';
-import { CreditCard } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 
 export function Navbar() {
@@ -8,7 +7,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <CreditCard className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+            <img src="src\icons\icon.png" alt="Cardabase" className="w-8 h-8" />
             <span className="text-xl font-bold text-gray-900 dark:text-white">Cardabase</span>
           </div>
           <div className="flex items-center space-x-6">

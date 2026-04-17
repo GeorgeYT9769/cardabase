@@ -29,7 +29,7 @@ const features = [
   },
   {
     name: 'High card compatibility',
-    description: 'There are exactly 13 types of barcode types supported.',
+    description: 'More barcode types are supported than you will ever need.',
     icon: QrCode,
   },
   {
