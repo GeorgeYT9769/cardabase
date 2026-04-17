@@ -19,7 +19,7 @@ const features = [
   },
   {
     name: 'Completely FREE',
-    description: 'No fees. No hidden fees. Fully open-source.',
+    description: 'No fees. No hidden fees. Fully open-source code.',
     icon: CreditCard,
   },
   {

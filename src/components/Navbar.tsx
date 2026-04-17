@@ -1,5 +1,6 @@
 import React from 'react';
 import { ThemeToggle } from './ThemeToggle';
+import appIcon from '../icons/icon.png';
 
 export function Navbar() {
   return (
@@ -7,7 +8,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <img src="src\icons\icon.png" alt="Cardabase" className="w-8 h-8" />
+            <img src={appIcon} alt="Cardabase" className="w-8 h-8" />
             <span className="text-xl font-bold text-gray-900 dark:text-white">Cardabase</span>
           </div>
           <div className="flex items-center space-x-6">
