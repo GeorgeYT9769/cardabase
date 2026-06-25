@@ -16,11 +16,11 @@ export function Hero({ onDownloadClick }: HeroProps) {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-              All Your Shop Cards in{' '}
-              <span className="text-primary-600 dark:text-primary-400">One Place</span>
+              Cardabase
+              {/* <span className="text-primary-600 dark:text-primary-400">One Place</span> */}
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Cardabase is your digital wallet for loyalty cards. Save all your shop cards in one secure place and access them instantly.
+              Lightweight digital wallet to securely scan, store, and manage loyalty cards offline.
             </p>
             <div className="mt-10 flex flex-col items-center gap-4">
               <button
@@ -29,6 +29,13 @@ export function Hero({ onDownloadClick }: HeroProps) {
               >
                 <Download className="h-6 w-6" />
                 Download App
+              </button>
+              <button
+                onClick={() => window.open(`${import.meta.env.BASE_URL}demo/index.html`, '_blank')}
+                className="w-64 rounded-lg bg-primary-600 dark:bg-primary-500 px-8 py-4 text-lg font-semibold text-white shadow-sm hover:bg-primary-700 dark:hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600 flex items-center justify-center gap-2"
+              >
+                <Play className="h-6 w-6" />
+                Try Out Demo
               </button>
               <a
                 href="https://github.com/GeorgeYT9769/cardabase-app"
