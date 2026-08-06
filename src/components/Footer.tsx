@@ -12,7 +12,16 @@ export function Footer() {
               &copy; {new Date().getFullYear()} Cardabase. All rights reserved.
             </p>
           </div>
-          
+        </div>
+        <div className="mt-8 md:order-2 md:mt-0 flex justify-center md:justify-end">
+          <a
+            href="https://raw.githubusercontent.com/GeorgeYT9769/cardabase-app/refs/heads/main/TermsOfService.txt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs leading-5 text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors"
+          >
+            Terms and Conditions
+          </a>
         </div>
       </div>
     </footer>

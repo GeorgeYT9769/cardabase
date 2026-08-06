@@ -30,13 +30,6 @@ export function Hero({ onDownloadClick }: HeroProps) {
                 <Download className="h-6 w-6" />
                 Download App
               </button>
-              <button
-                onClick={() => window.open(`${import.meta.env.BASE_URL}demo/index.html`, '_blank')}
-                className="w-64 rounded-lg bg-primary-600 dark:bg-primary-500 px-8 py-4 text-lg font-semibold text-white shadow-sm hover:bg-primary-700 dark:hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600 flex items-center justify-center gap-2"
-              >
-                <Play className="h-6 w-6" />
-                Try Out Demo
-              </button>
               <a
                 href="https://github.com/GeorgeYT9769/cardabase-app"
                 className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 flex items-center gap-2"

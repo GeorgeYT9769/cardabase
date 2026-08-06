@@ -7,7 +7,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { QA } from './components/QA';
 import { Footer } from './components/Footer';
 import { DownloadPopup } from './components/DownloadPopup';
-import { Notes } from './components/Notes';
+import { BugReporter } from './components/BugReporter';
 
 function App() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
@@ -22,7 +22,7 @@ function App() {
         <HowItWorks />
         <QA />
       </main>
-      <Notes />
+      <BugReporter />
       <Footer />
       <DownloadPopup 
         isOpen={isDownloadOpen} 
