@@ -54,7 +54,7 @@ export function BugReporter() {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800 py-12">
+    <div id="bug-reporter" className="bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800 py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-base font-semibold leading-7 text-primary-600 dark:text-primary-400">Feedback</h2>

@@ -86,7 +86,7 @@ function QAItem({ faq }: { faq: typeof faqs[0] }) {
 
 export function QA() {
   return (
-    <div className="bg-gray-50 dark:bg-gray-800 py-24 sm:py-32">
+    <div id="faq" className="bg-gray-50 dark:bg-gray-800 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-base font-semibold leading-7 text-primary-600 dark:text-primary-400">FAQ</h2>

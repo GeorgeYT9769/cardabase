@@ -6,17 +6,15 @@ import { Gallery } from './components/Gallery';
 import { HowItWorks } from './components/HowItWorks';
 import { QA } from './components/QA';
 import { Footer } from './components/Footer';
-import { DownloadPopup } from './components/DownloadPopup';
 import { BugReporter } from './components/BugReporter';
 
 function App() {
-  const [isDownloadOpen, setIsDownloadOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <Navbar />
       <main>
-        <Hero onDownloadClick={() => setIsDownloadOpen(true)} />
+        <Hero />
         <Features />
         <Gallery />
         <HowItWorks />
@@ -24,10 +22,6 @@ function App() {
       </main>
       <BugReporter />
       <Footer />
-      <DownloadPopup 
-        isOpen={isDownloadOpen} 
-        onClose={() => setIsDownloadOpen(false)} 
-      />
     </div>
   );
 }

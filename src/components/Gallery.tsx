@@ -1,37 +1,46 @@
 import React, { useState, useCallback, TouchEvent } from 'react';
 import { ChevronLeft, ChevronRight, Maximize2, X } from 'lucide-react';
 
+import screenshot1 from '../screenshots/1.webp';
+import screenshot2 from '../screenshots/2.webp';
+import screenshot3 from '../screenshots/3.webp';
+import screenshot4 from '../screenshots/4.webp';
+import screenshot5 from '../screenshots/5.webp';
+import screenshot6 from '../screenshots/6.webp';
+import screenshot7 from '../screenshots/7.webp';
+import screenshot8 from '../screenshots/8.webp';
+
 const screenshots = [
   {
-    url: 'src\\screenshots\\1.webp',
+    url: screenshot1,
     alt: 'Cardabase Home Screen Light Mode'
   },
   {
-    url: 'src\\screenshots\\2.webp',
+    url: screenshot2,
     alt: 'Card Details Screen Light Mode'
   },
   {
-    url: 'src\\screenshots\\3.webp',
+    url: screenshot3,
     alt: 'Add New Card Screen Light Mode'
   },
   {
-    url: 'src\\screenshots\\4.webp',
+    url: screenshot4,
     alt: 'Settings Screen Light Mode'
   },
   {
-    url: 'src\\screenshots\\5.webp',
+    url: screenshot5,
     alt: 'Cardabase Home Screen Dark Mode'
   },
   {
-    url: 'src\\screenshots\\6.webp',
+    url: screenshot6,
     alt: 'Card Details Screen Dark Mode'
   },
   {
-    url: 'src\\screenshots\\7.webp',
+    url: screenshot7,
     alt: 'Add New Card Screen Dark Mode'
   },
   {
-    url: 'src\\screenshots\\8.webp',
+    url: screenshot8,
     alt: 'Settings Screen Dark Mode'
   }
 ];
@@ -81,7 +90,7 @@ export function Gallery() {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-900 py-24 sm:py-32">
+    <div id="gallery" className="bg-white dark:bg-gray-900 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-base font-semibold leading-7 text-primary-600 dark:text-primary-400">Gallery</h2>
