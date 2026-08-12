@@ -54,9 +54,12 @@ export function Hero() {
             <p className="mt-16 text-xl leading-8 text-gray-600 dark:text-gray-300">
               Also available on:
             </p>
-            <div className="mt-2 flex justify-center">
+            <div className="mt-2 flex flex-col items-center gap-4">
               <a href="https://f-droid.org/packages/com.georgeyt9769.cardabase/" target="_blank" rel="noreferrer" className="hover:opacity-90 transition-opacity">
                   <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" width="200" />
+              </a>
+              <a href="https://rookieenough.github.io/Orion-Data/redirect.html?id=cardabase" target="_blank" rel="noreferrer" className="hover:opacity-90 transition-opacity">
+                  <img src="https://raw.githubusercontent.com/RookieEnough/Orion-Store/refs/heads/main/assets/orion-badge.png" alt="Get it on Orion Store" width="200" />
               </a>
             </div>
           </div>

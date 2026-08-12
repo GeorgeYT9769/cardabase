@@ -6,6 +6,7 @@ import { Gallery } from './components/Gallery';
 import { HowItWorks } from './components/HowItWorks';
 import { QA } from './components/QA';
 import { Footer } from './components/Footer';
+import { Support } from './components/Support';
 import { BugReporter } from './components/BugReporter';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Gallery />
         <HowItWorks />
         <QA />
+        <Support />
       </main>
       <BugReporter />
       <Footer />

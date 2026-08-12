@@ -15,6 +15,7 @@ export function Navbar() {
             <a href="#features" className="text-sm font-medium text-gray-700 hover:text-primary-600 dark:text-gray-300 dark:hover:text-primary-400 transition-colors">Features</a>
             <a href="#gallery" className="text-sm font-medium text-gray-700 hover:text-primary-600 dark:text-gray-300 dark:hover:text-primary-400 transition-colors">Gallery</a>
             <a href="#faq" className="text-sm font-medium text-gray-700 hover:text-primary-600 dark:text-gray-300 dark:hover:text-primary-400 transition-colors">FAQ</a>
+            <a href="#support" className="text-sm font-medium text-gray-700 hover:text-primary-600 dark:text-gray-300 dark:hover:text-primary-400 transition-colors">Support Us</a>
             <a href="#bug-reporter" className="text-sm font-medium text-gray-700 hover:text-primary-600 dark:text-gray-300 dark:hover:text-primary-400 transition-colors">Report a Bug</a>
           </div>
           <div className="flex items-center space-x-6">
